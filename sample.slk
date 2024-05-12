@@ -1,0 +1,22 @@
+.code
+    pushb 34
+    pushi 48
+    dupi
+    addi
+    outi
+    popi
+    halt
+; This program should print 96
+; end of the program
+.code
+    pushdm :N0
+    pushdm :NO+8
+    addd
+    outd
+    halt
+.data
+.double
+:NO 32.4
+    14.3
+; This program should print 46.7
+; end of program
